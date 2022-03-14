@@ -32,5 +32,3 @@ Vamos pensar também em quais regras CSS podemos usar para alcançar o resultado
 
 
 **Até a próxima!**
-
-1

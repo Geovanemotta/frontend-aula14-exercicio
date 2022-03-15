@@ -15,11 +15,11 @@ body {
 
 .discountBar {
   display: flex;
-  height: 38px;
+  height: 60px;
   background: #1cd1b0;
   padding-left: 10px;
   align-items: center;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 18px;
 }
 
@@ -66,6 +66,26 @@ main {
   background-size: contain;
 }
 
+.mulherMaravilha {
+  background-image: url('../img/headerCard03.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+.superman {
+  background-image: url('../img/headerCard04.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+.cardHeader img {
+  width: 138px;
+}
+
 .like__button {
   display: inline-block;
   position: relative;
@@ -100,6 +120,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 200px;
 }
 
 .cardDescription span {
@@ -150,5 +171,9 @@ footer {
     justify-content: center;
     gap: 40px;
     width: 750px;
+  }
+
+  .discountBar {
+    height: 38px;
   }
 }
